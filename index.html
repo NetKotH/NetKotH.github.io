@@ -30,7 +30,10 @@
 <h3>What is NetKotH?</h3>
 
 <div class="tab1">
-NetKotH (Network King of the Hill) is a type of <A HREF="https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security" target="_blank">Capture the flag (CTF)</A> that is much easier to build and administer than traditional CTFs.
+NetKotH (Network King of the Hill) is a type of
+<A HREF="https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security" target="_blank">Capture the flag (CTF)</A>
+that is much easier to build and administer than
+<A HREF="https://ctftime.org/ctf-wtf/" target="_blank">traditional CTFs</A>.
 </div>
 </P>
 
@@ -45,20 +48,28 @@ We believe
 
 The Open Web Application Security Project 
 (<A HREF="https://www.owasp.org/" target="_blank">OWASP</A>)
-<A HREF="https://www.owasp.org/index.php/Top_10_2013-Top_10" target="_blank">Top 10 List</A> has been tracking web application 
-security vulnerabilites since 2003 and sadly web application security has not improved.
+<A HREF="https://www.owasp.org/index.php/Top_10_2013-Top_10" target="_blank">Top 10 List</A>
+has been tracking
+<A HREF="https://en.wikipedia.org/wiki/Web_application" target="_blank">web application</A>
+security
+<A HREF="https://en.wikipedia.org/wiki/Vulnerability_(computing)" target="_blank">vulnerabilities</A>
+since 2003 and sadly web application security has not improved.
 
 </P>
 
-The OWASP Top 10 only covers web application security and not the underlying server operating system or web server software.
-
+The OWASP Top 10 only covers web application security and not the underlying server
+<A HREF="https://en.wikipedia.org/wiki/Operating_system" target="_blank">operating system</A>
+ or
+<A HREF="https://en.wikipedia.org/wiki/Web_server" target="_blank">web server</A>
+ <A HREF="https://en.wikipedia.org/wiki/Comparison_of_web_server_software" target="_blank">software</A>.
+ 
 </P>
 
 So why is web application security so bad if OWASP knows what the problem is and publishes free solutions?
 
 </P>
 
-You decide to install a new door on your home so you take a free door installation class at the local hardware store. 
+You decide to install a new door on your home so you take a free door installation class at a local hardware store. 
 After installing your new door, you come home to find your house has been burglarized. 
 The class you took showed you how to install a door but never discussed security. They never mentioned that outside doors 
 should have a solid core, the frame should be steel, and you should not use just any lock.
@@ -94,7 +105,7 @@ challenges and scoring engine, and it can also require a significant investment 
 </P>
 
 In contrast, NetKotH is designed to run on everyday hardware and use off the shelf pre-built challenges 
-thus eliminating the hardware expense and engineering difficulty of the traditional CTF.
+thus eliminating the hardware expense and engineering difficulty of a traditional CTF.
 </div>
 
 </P>
@@ -122,7 +133,7 @@ on NetKotH given by Irongeek at the 2013 Appalachia Institute of Digital Evidenc
 <div class="tab1">
 NetKoth is free. Irongeek graciously provided the 
 <A HREF="https://www.irongeek.com/downloads/netkothpythonversion.7z" target="_blank">source code</A>
-for a basic scoring engine. The challenges can be downloaded freely from multiple sites such as 
+for a basic scoring engine (ScoreBot). The challenges can be downloaded freely from multiple sites such as 
 <A HREF="https://www.vulnhub.com/about/" target="_blank">Vulnhub</A>.
 </div>
 
@@ -140,22 +151,25 @@ they had 30 challenges.
 
 </P>
 
-The scoring engine can be a standalone computer or virtual machine running a web server and the scoring software.
+The ScoreBot (scoring engine) can be a standalone computer or virtual machine running a web server and the scoring software.
 The scores can be viewed by any computer on the NetKotH network using any web browser.
-Typically the scoring engine is connected to a TV, projector, or monitor and a web browser is used to
+Typically the ScoreBot is connected to a TV, projector, or monitor and a web browser is used to
 display the scores to the audience.
 
 </P>
 
 NetKotH is very lightweight. At
 <A HREF="http://dc404.org/" target="_blank">DC404</A>
-meetings they use an old wireless router and a single laptop to host NetKotH.
+meetings they use an old
+<A HREF="https://en.wikipedia.org/wiki/Wireless_router" target="_blank">wireless router</A>
+and a single laptop to host NetKotH.
 
 
 </P>
 
 The contestants can use their own laptop or desktop computers with security penetration testing tools installed. At
-PhreakNic they collect older computers that are destined for the scrap heap, refurbish them, and install a penetration testing
+<A HREF="http://phreaknic.info/" target="_blank">PhreakNic</A>
+they collect older computers that are destined for the scrap heap, refurbish them, and install a penetration testing
 build such as
 <A HREF="https://www.kali.org/" target="_blank">Kali Linux</A>.
 This makes it easier for anyone to walk up and join the fun.
@@ -167,17 +181,25 @@ more difficult when a team gets bigger than 6 people but team size and organizat
 
 </P>
 
-In real life, servers are run by administrators. When a black hat breaks into a server he has to
+In real life, servers are run by administrators. When a
+<A HREF="https://en.wikipedia.org/wiki/Black_hat" target="_blank">black hat</A>
+breaks into a server he has to
 prevent other black hats from gaining a foot hold but he must also be careful not to alert the
 systems administrators to his presence. Systems administrators routinely install patches and
-reconfigure servers so the black hat has to anticipate this an plan accordingly.
+reconfigure servers so the black hat has to anticipate this and plan accordingly.
 
 </P>
 
 NetKotH works the same way. The contestants must gain access to a challenge machine which may contain multiple
-vulnerabilities. Once the are on the challenge machine they must plant their team tag where the scoring engine can see it.
-Every minute the scoring engine checks one or more locations on each challenge machine and awards 1 point for the first
-team tag it sees. A team tag consists of the text &ltteam&gtName of Your Awesome Team&lt/team&gt.
+vulnerabilities. Once they are on the challenge machine, they must plant their team tag where the ScoreBot can see it.
+Every minute the ScoreBot checks one or more locations on each challenge machine and awards 1 point for the first
+team tag it sees. A team tag consists of the text:
+
+</P>
+
+<div class="tab2">
+&ltteam&gtName of Your Awesome Team&lt/team&gt
+</div>
 
 </P>
 
@@ -189,6 +211,37 @@ NetKotH can be as much fun for the systems administrators as it is for the conte
 </div>
 
 
+</P>
+<h3>What are the NetKotH rules?</h3>
+</P>
+
+<div class="tab1">
+NetKotH is geared towards CTF beginners so we have a few rules to make it more fun for the contestants
+however, it is up to the NetKotH hosts (administrators) to add or remove rules as needed.
+
+</P>
+<div class="tab2">
+Don't attack the ScoreBot, the machines hosting the challenges, or the contestants machines.
+</P>
+You don't have to limit your attack to adding your team tag. You can change the pages
+on challenge sites any you like including modifying the configuration of the
+challenge. NetKotH is like the real world, other contestants are attacking the
+challenges and you don't want to draw the attention of the administrators, so plan accordingly.
+</P>
+DoS and network routing/traffic attacks such as ARP cache poisoning are allowed but
+these types of attacks are commonly banned by NetKotH hosts.
+</P>
+Do not attack machines that are not on the NetKotH network, this includes network scans.
+The NetKotH network may have a gateway to the Internet so that contestants can search for
+help using the penetration testing tools and to down load tools they need. 
+</P>
+Team registration is not required. This is to make it as simple as possible for contestants to
+walk up and try NetKotH. If you are giving out prizes to the winners you
+may need to change this rule.
+</P>
+The NetKotH hosts may change/add other rules at will (like banning network attacks).
+</div>
+</div>
 
 <BR>
 
